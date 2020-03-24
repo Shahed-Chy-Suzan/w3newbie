@@ -1,0 +1,218 @@
+html body {
+  height: 100%;
+  width: 100%;
+  font-family: 'poppins',sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar ul li {
+  padding-right: 20px;
+}
+
+.navbar ul li a {
+  font-size: 1.1em !important;
+}
+
+.carousel-item {
+  height: 580px;
+}
+
+.carousel-img-1 {
+  background: url("../img/Hill-background.png");
+  background-size: cover;
+}
+
+.carousel-img-2 {
+  background: url("../img/image2.jpeg");
+  background-size: cover;
+}
+
+.carousel-img-3 {
+  background: url("../img/image1.jpeg");
+  background-size: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.carousel-caption .btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+
+.carousel-caption .btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.jumbotron {
+  padding: 16px;
+  border-radius: 0px;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.fa-code {
+  color: #e54d26;
+}
+
+.fa-bold {
+  color: #563d7c;
+}
+
+.fa-css3 {
+  color: #2163af;
+}
+
+figure {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+figure .fixed-wrap {
+  background: url("../img/overlay.png") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+}
+
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.gif {
+  max-width: 100%;
+}
+
+.social .fa {
+  font-size: 4.2em;
+  padding: 2.7rem;
+}
+
+.social .fa-facebook {
+  color: #3b5998;
+}
+
+.social .fa-twitter {
+  color: #00aced;
+}
+
+.social .fa-google-plus {
+  color: #dd4b39;
+}
+
+.social .fa-instagram {
+  color: #3b5998;
+}
+
+.social .fa-youtube {
+  color: #3b5998;
+}
+
+.social .fa-facebook:hover,
+.social .fa-twitter:hover,
+.social .fa-google-plus:hover,
+.social .fa-instagram:hover,
+.social .fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 4rem;
+}
+
+footer img {
+  background-color: #aa9898;
+  border-radius: 25px;
+}
+
+.light {
+  border-top: 1px solid #d5d5d5;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .social .fa {
+    font-size: 3.6em;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 250%;
+  }
+  .social .fa {
+    font-size: 2.3em;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item h1 {
+    font-size: 2.9rem;
+  }
+  .social .fa {
+    font-size: 2em;
+    padding: .5rem;
+  }
+}
+
+@media (max-width: 436px) {
+  .social .fa {
+    font-size: 1.6em;
+    padding: .2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+    <link rel="stylesheet" href="scss/style.css">
+
+    <title>w3Newbie</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+                <!------------- NAVIGATION ---------->
+
+    <nav class="navbar navbar-light bg-light navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#showcase"><img src="img/w3logo.png" alt="logo"></a>
+           <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#showcase">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#welcome">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#team">TEAM</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="#socialMedia">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+      </div>
+    </nav>
+
+                        <!-------- Carousal-Slider ----------->
+    <section id="showcase">
+      <div id="slider" class="carousel slide" data-ride="carousel"> <!--.carousel-fade-->
+        <ol class="carousel-indicators">
+           <li class="active" data-target="#slider" data-slide-to="0"></li>
+           <li data-target="#slider" data-slide-to="1"></li>
+           <li data-target="#slider" data-slide-to="2"></li>
+        </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-img-1 active">
+              <div class="container">
+                 <div class="carousel-caption mb-sm-5">
+                    <h1 class="display-4">BOOTSTRAP</h1>
+                    <h3>Complete Website Layout</h3>
+                     <a class="btn btn-outline-light btn-lg" href="#"> VIEW DEMO </a>
+                     <a class="btn btn-primary btn-lg" href="#"> Get Started</a>
+                     <div class="mb-4 d-none d-lg-block"></div>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img-2">
+               <div class="container">
+                 <div class="carousel-caption mb-sm-5 pb-sm-5 text-left">
+                    <h1 class="display-4">Heading 2</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium totam repudiandae iusto unde delectus cum hic perspiciatis, animi nisi.</p>
+                    <a class="btn btn-outline-warning" href="#">Learn More</a>
+                    </div>
+                 </div>
+                 </div>
+                 <div class="carousel-item carousel-img-3">
+                    <div class="container">
+                       <div class="carousel-caption mb-sm-5 pb-sm-5 text-right">
+                         <h1 class="display-4">Heading 3</h1>
+                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium totam repudiandae iusto unde delectus cum hic perspiciatis, animi nisi.</p>
+                         <a class="btn btn-info" href="#">Learn More</a>
+                        </div>
+                      </div>
+                 </div>
+            </div>
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+                      <!-------------- Jumbotron ----------------->
+     <section id="jumbotron">
+       <div class="container-fluid">
+         <div class="row jumbotron">
+           <div class="col-md-9 col-sm-12 px-3">
+              <p class="lead ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima aliquam cumque perferendis asperiores quae accusantium?</p>
+           </div>
+           <div class="col-md-3 col-sm-12">
+              <a href="#"><button class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+           </div>
+         </div>
+       </div>
+     </section> 
+
+                      <!------------ Welcome Section --------------->
+    <section id="welcome">
+      <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Built with ease</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat veniam aperiam officiis mollitia. Consequatur hic reiciendis</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+                <!------------ 3 column Section --------------->
+    <section id="3column">
+        <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-sm-6 col-md-4 r">
+            <i class="fa fa-code"></i>
+            <h3>HTML5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. HTML 5!</p>
+          </div>
+          <div class="col-sm-6 col-md-4 r">
+              <i class="fa fa-bold"></i>
+              <h3>BOOTSTRAP4</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. BOOTSTRAP 4!</p>
+            </div>
+          <div class="col-sm-12 col-md-4 r">
+            <i class="fa fa-css3"></i>
+            <h3>CSS3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. CSS 3!</p>
+          </div>
+          <hr>
+        </div>
+        <hr class="my-4">
+      </div>
+      </section>
+
+
+                <!------------ Two column section --------------->
+
+    <section class="twoColumn" id="services">
+      <div class="container padding">
+        <div class="row padding">
+        <div class="col-lg-6">
+          <h1>If build it...</h1>
+          <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque est ea non beatae nesciunt temporibus?</P>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores laudantium qui, aspernatur blanditiis accusantium dolor temporibus accusamus magnam iusto?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dolores voluptatem? Id nostrum voluptates laboriosam.</p>
+          <br>
+          <a class="btn btn-primary mb-3" href="#">Learn More</a>
+        </div>
+        <div class="col-lg-6 align-self-lg-center">
+          <img src="img/team3.png" alt="deskPic">
+        </div>
+      </div>
+      </div>
+    </section>
+    <hr class="my-4">
+
+
+                  <!-------------- fixed background ----------------->
+
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed">
+        </div>
+      </div>
+    </figure>
+
+              <!-------------- Emoji selection ----------------->
+              
+    
+    <button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+
+    <div class="collapse" id="emoji">
+      <div class="container">
+        <div class="row padding text-center">
+          <div class="col-sm-12 col-md-3">
+            <img class="gif" src="img/panda.gif" alt="gif">
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <img class="gif" src="img/chicken.gif" alt="gif">
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <img class="gif" src="img/poo.gif" alt="gif">
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <img class="gif" src="img/unicorn.gif" alt="gif">
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+                  <!-------------- meet the team ------->
+
+    <div class="container padding" id="team">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Meet the team</h1>
+        </div>
+        <hr>
+      </div>
+    </div>
+
+                <!-------------- Card section ------->
+    
+  <section id="people">
+    <div class="container padding">
+      <div class="row padding">
+        <div class="col-md-4">
+        <div class="card">
+          <div class="card-img-top">
+            <img src="img/team1.png" alt="team pic">
+            <div class="card-body">
+              <h4 class="card-title">John Doe</h4>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos.
+              </p>
+              <a href="#" class="btn btn-outline-secondary">See Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="img/team3.png" alt="team pic">
+              <div class="card-body">
+                <h4 class="card-title">Charles Mack</h4>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos.
+                </p>
+                <a href="#" class="btn btn-outline-secondary">See Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+              <div class="card-img-top">
+                <img src="img/team1.png" alt="team pic">
+                <div class="card-body">
+                  <h4 class="card-title">Mark Doe</h4>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dignissimos.
+                  </p>
+                  <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+           <!----------- Two column section- 2 -------------->
+
+        <section class="twoColumn2">
+          <div class="container padding">
+            <div class="row padding">
+            <div class="col-lg-6">
+              <h2>Our Philosophy</h2>
+              <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque est ea non beatae nesciunt temporibus?</P>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias asperiores laudantium qui, aspernatur blanditiis accusantium dolor temporibus accusamus magnam iusto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quo qui placeat deserunt dicta asperiores! </p>
+              <br>
+            </div>
+            <div class="col-lg-6">
+              <img src="img/pc.jpeg" class="img-fluid" alt="deskPic2">
+            </div>
+          </div>
+          <hr class="my-4">
+          </div>
+        </section>
+
+
+                    <!--------------- Connect ----------------->
+    <section class="social-media" id="socialMedia">
+      <div class="container padding">
+        <div class="row padding text-center">
+          <div class="col-12">
+            <h2>Connect</h2>
+          </div>
+          <div class="col-12 social padding">
+            <a href="#"> <i class="fa fa-facebook"> </i> </a>
+            <a href="#"> <i class="fa fa-twitter"> </i> </a>
+            <a href="#"> <i class="fa fa-google-plus"> </i> </a>
+            <a href="#"> <i class="fa fa-instagram"> </i> </a>
+            <a href="#"> <i class="fa fa-youtube"> </i> </a>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+                      <!--------------- Footer ----------------->
+    <footer class="footer">
+      <div class="container padding">
+        <div class="row text-center">
+          <div class="col-md-4">  
+            <img src="img/w3logo.png" alt="logo" class="img-fliud">
+            <hr class="light">
+            <p>555-555-5555</p>
+            <p>email@yemail.com</p>
+            <p>100 Street Name</p>
+            <p>City, State, 00000</p>
+          </div>
+          <div class="col-md-4">
+            <hr class="light">
+            <h5>Our hours</h5>
+            <hr class="light">
+            <p>Monday: 9am - 5am</p>
+            <p>Saturday: 10am - 4am</p>
+            <p>Sunday: closed</p>
+          </div>
+          <div class="col-md-4">
+              <hr class="light">
+              <h5>Service Area</h5>
+              <hr class="light">
+              <p>City,State,00000</p>
+              <p>City,State,00000</p>
+              <p>City,State,00000</p>
+              <p>City,State,00000</p>
+            </div>
+            <div class="col-12">
+              <hr class="light-100">
+              <h5> &copy; w3newbie.com </h5>
+            </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    
+
+    <!-- JS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+
+
+</body>
+</html>
